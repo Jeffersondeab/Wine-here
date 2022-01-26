@@ -108,4 +108,129 @@ div a:hover{
  }
 
 
+.container1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat( 2, 1fr);
+    grid-gap: 3vh;
+    height: 80vh;
+    margin-top: 20vh;
+    opacity: 0.9;
+}
+
  
+ .cx01{
+     display: block;
+     margin: auto;
+     width: 40vh;
+     height: 35vh;
+     border: 1px solid gray;
+     cursor: pointer;
+     box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.37);
+     text-align: center;
+     color: white;
+     font-weight: bold;
+     font-size: 4vh;
+
+ }
+
+ .cx01:hover{
+     transform: scale(1.01, 1.01);
+     transition: 1ms;
+     
+
+ }
+
+ .box1{
+     background-image: url(wine/A_Chapter_of_wine_\(Unsplash\)\ -\ Copia.jpg);
+     background-size: cover;
+     background-position: center 50%;
+ }
+
+ .box2{
+     background-image: url(wine/Albana_wine.jpg);
+     background-size: cover;
+     background-position: center 50%;
+ }
+
+ .box3{
+     background-image: url(wine/download.jpg);
+     background-size: cover;
+     background-position:center 50%;
+ }
+
+ .box4{
+     background-image: url(wine/images.jpg);
+     background-size: cover;
+     background-position: center 50%;
+ }
+
+ .box5{
+     background-image: url(wine/images\ \(2\).jpg);
+     background-size: cover;
+     background-position: center 60%;
+ }
+
+ .box6{
+     background-image: url(wine/images\ \(4\).jpg);
+     background-size: cover;
+     background-position: center 30%;
+ }
+
+ .box7{
+     background-image: url(wine/images\ \(5\).jpg);
+     background-size: cover;
+     background-position: center 20%;
+ }
+
+ .box8{
+     background-image: url(wine/img.jpg);
+     background-size: cover;
+     background-position: center 50%;
+ }
+
+
+ .container2{
+     margin-top: 40vh;
+     height: 50vh;
+     background-image: url(wine/wines-2447514_1280.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     
+
+
+ }
+
+
+ .container2 > h2 {
+    color: white;
+    font-family: var(--font2);
+    margin: 10vh;
+    margin-bottom: 0vh;
+    font-size: 10vh;
+    background-attachment: fixed;
+
+
+ }
+
+ .container2 > p{
+     color: white;
+     margin: 10vh;
+     display: inline-block;
+     
+ }
+
+
+ .container2 > a {
+     display: inline-block;
+     text-align: center;
+     background-color: yellow;
+     color: black;
+     font-family: var(--font2);
+     margin-left: 30vh;
+     padding: 2vh;
+     width: 20vh;
+     text-decoration: none;
+     border-radius: 5px;
+
+ }
