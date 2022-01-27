@@ -50,7 +50,7 @@ header > h2 {
 
 
 header div > a {
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.87);
     padding: 2.5vh;
     text-decoration: none;
     color: black;
@@ -64,13 +64,10 @@ header div > a {
      
 }
 
-
-
-div a:hover{
-    opacity: 0.9;
-    transition: 1ms; 
+div > a:hover{
+    background-color: yellow;
+    transition: 0.5s;
 }
-
     
   main > h2{
       text-align: center;
@@ -116,6 +113,7 @@ div a:hover{
     height: 80vh;
     margin-top: 20vh;
     opacity: 0.9;
+
 }
 
  
@@ -125,12 +123,12 @@ div a:hover{
      width: 40vh;
      height: 35vh;
      border: 1px solid gray;
-
      box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.37);
      text-align: center;
      color: white;
      font-weight: bold;
      font-size: 4vh;
+     border-radius: 5%;
 
  }
 
@@ -192,7 +190,7 @@ div a:hover{
 
  .container2{
      margin-top: 40vh;
-     height: 50vh;
+     height: 55vh;
      background-image: url(wine/wines-2447514_1280.jpg);
      background-size: cover;
      background-attachment: fixed;
@@ -207,7 +205,7 @@ div a:hover{
     font-family: var(--font2);
     margin: 10vh;
     margin-bottom: 0vh;
-    font-size: 10vh;
+    font-size: 7vh;
     background-attachment: fixed;
 
 
@@ -224,7 +222,7 @@ div a:hover{
  .container2 > a {
      display: inline-block;
      text-align: center;
-     background-color: yellow;
+     background-color: rgba(255, 255, 0, 0.87);
      color: black;
      font-family: var(--font2);
      margin-left: 30vh;
@@ -234,3 +232,28 @@ div a:hover{
      border-radius: 5px;
 
  }
+
+ .container2 > a:hover {
+    background-color: yellow;
+ }
+
+
+ .container3{
+     margin: 30vh;
+     text-align: center;
+     display: grid;
+     grid-template-columns: 4, 1fr;
+     grid-gap: 2vh;
+      
+     
+ }
+
+ .cx02{
+     width: 40vh;
+     height: 35vh;
+     border: 1px solid gray;
+     display: block;
+   
+ }
+
+
