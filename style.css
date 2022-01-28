@@ -21,6 +21,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center 20%;
     padding: 30vh;
     height: 60vh;
     opacity: 0.9;
@@ -140,13 +141,13 @@ div > a:hover{
  }
 
  .box1{
-     background-image: url(wine/A_Chapter_of_wine_\(Unsplash\)\ -\ Copia.jpg);
+     background-image: url(wine/A_Chapter_teste.jpg);
      background-size: cover;
      background-position: center 50%;
  }
 
  .box2{
-     background-image: url(wine/Albana_wine.jpg);
+     background-image: url(wine/Albana.novo.jpg);
      background-size: cover;
      background-position: center 50%;
  }
@@ -242,17 +243,125 @@ div > a:hover{
      display: grid;
      grid-template-areas: "f1 f2 f3 f4";
      grid-gap: 2vh;
-     margin: 30vh;
+     margin: 10vh;
      
  }
 
+ #txt03{
+     text-align: center;
+     margin-top: 40vh;
+ }
  .cx02 {
      grid: f1 f2 f3 f4 ;
      width: 40vh;
      height: 35vh;
      border: 1px solid gray;
 
-   
  }
+
+ .f1{
+     background-image: url(wine/red-wine-novo_1280.jpg);
+     background-size: cover;
+     background-position: ;
+ }
+
+ .f2{
+     background-image: url(wine/pexels-bruno-novo.jpg);
+     background-size: cover;
+     background-position: 50% 30%;
+ }
+
+ .f3{
+     background-image: url(wine/pexels-markus-novo.jpg);
+     background-size: cover;
+     background-position: 50% 30%;
+ }
+
+
+ .f4{
+        background-image: url(wine/pexels-czapp-novo.jpg);
+        background-size: cover;
+        background-position: 50% 30%;
+ }
+
+
+
+.email-num{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+
+   
+}
+
+ .cxdoemail{
+    width: 70vh;
+    height: 80vh;
+    border: 1px solid gray;
+    margin: 10vh;
+    background-color: rgb(55, 52, 71);
+ }
+
+
+.txtpergunta{
+     text-align: center;
+     margin: 3vh;
+     color: white;
+     font-size: 5vh;
+     
+
+ }
+
+ #cxnome{
+     display: block;
+     margin: auto;
+     width: 60vh;
+     height: 6vh;
+     border-radius: 5px;
+
+ }
+
+
+
+ #cxemail{
+     display: block;
+     margin: auto;
+     width: 60vh;
+     height: 6vh;
+     border-radius: 5px;
+     margin-top: 3vh;
+ }
+
+
+ #cxmsg{
+     display: block;
+     margin: auto;
+     width: 60vh;
+     height: 20vh;
+     margin-top: 5vh;
+     border-radius: 5px;
+     margin-bottom: 10vh;
+ }
+
+
+
+#enviar{
+    background-color: rgba(255, 255, 0, 0.87);
+    text-decoration: none;
+    margin: 5vh;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+
+}
+
+#enviar:hover{
+    background-color: yellow;
+    transition: 0.5s;
+}
+
+
+
 
 
