@@ -481,5 +481,34 @@ div > a:hover{
 
 
 
+ 
+.txtfoot{
+    color: white;
+    font-size: 3vh;
+    margin-top: 35vh;
+    margin-left: 37vh;
+    text-align: center;
+    display: inline-block;
 
+
+}
+
+/* .address01{
+    position: absolute;
+    right: 40%;
+    top: 30vh;
+}
+
+
+.address02{
+    position: absolute;
+    right: 50%;
+    top: 20vh;
+}
+
+.address03{
+    position: absolute;
+    right: 60%;
+    top: 20vh;
+} */
 
