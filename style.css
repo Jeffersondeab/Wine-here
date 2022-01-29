@@ -51,7 +51,7 @@ header > h2 {
 
 
 header div > a {
-    background-color: rgba(255, 255, 0, 0.87);
+    background-color: rgba(226, 226, 2, 0.932);
     padding: 2.5vh;
     text-decoration: none;
     color: black;
@@ -130,6 +130,7 @@ div > a:hover{
      font-weight: bold;
      font-size: 4vh;
      border-radius: 5%;
+     font-family: normal;
 
  }
 
@@ -144,59 +145,74 @@ div > a:hover{
      background-image: url(wine/A_Chapter_teste.jpg);
      background-size: cover;
      background-position: center 50%;
+     line-height: 60vh;
+     text-align: center;
  }
 
  .box2{
      background-image: url(wine/Albana.novo.jpg);
      background-size: cover;
      background-position: center 50%;
+     line-height: 60vh;
+     text-align: center;
  }
 
  .box3{
      background-image: url(wine/download.jpg);
      background-size: cover;
      background-position:center 50%;
+     line-height: 60vh;
+     text-align: center;
  }
 
  .box4{
      background-image: url(wine/images.jpg);
      background-size: cover;
      background-position: center 50%;
+     line-height: 60vh;
+     text-align: center;
  }
 
  .box5{
      background-image: url(wine/images\ \(2\).jpg);
      background-size: cover;
      background-position: center 60%;
+     line-height: 60vh;
+     text-align: center;
  }
 
  .box6{
      background-image: url(wine/images\ \(4\).jpg);
      background-size: cover;
      background-position: center 30%;
+     line-height: 60vh;
+     text-align: center;
  }
 
  .box7{
      background-image: url(wine/images\ \(5\).jpg);
      background-size: cover;
      background-position: center 20%;
+     line-height: 60vh;
+     text-align: center;
  }
 
  .box8{
      background-image: url(wine/img.jpg);
      background-size: cover;
      background-position: center 50%;
+     line-height: 60vh;
+     text-align: center;
  }
 
 
  .container2{
      margin-top: 40vh;
      height: 55vh;
-     background-image: url(wine/wines-2447514_1280.jpg);
+     background-image:  url(wine/wines-2447514_1280.jpg);
      background-size: cover;
      background-attachment: fixed;
-     
-
+    
 
  }
 
@@ -206,9 +222,8 @@ div > a:hover{
     font-family: var(--font2);
     margin: 10vh;
     margin-bottom: 0vh;
-    font-size: 7vh;
+    font-size: 6vh;
     background-attachment: fixed;
-
 
  }
 
@@ -223,7 +238,7 @@ div > a:hover{
  .container2 > a {
      display: inline-block;
      text-align: center;
-     background-color: rgba(255, 255, 0, 0.87);
+     background-color: rgb(226, 226, 2);
      color: black;
      font-family: var(--font2);
      margin-left: 30vh;
@@ -317,7 +332,7 @@ div > a:hover{
      display: block;
      margin: auto;
      width: 60vh;
-     height: 6vh;
+     padding: 10px;
      border-radius: 5px;
 
  }
@@ -328,7 +343,7 @@ div > a:hover{
      display: block;
      margin: auto;
      width: 60vh;
-     height: 6vh;
+     padding: 10px;
      border-radius: 5px;
      margin-top: 3vh;
  }
@@ -338,7 +353,8 @@ div > a:hover{
      display: block;
      margin: auto;
      width: 60vh;
-     height: 20vh;
+     height: 15vh;
+     padding: 10px;
      margin-top: 5vh;
      border-radius: 5px;
      margin-bottom: 10vh;
@@ -347,7 +363,7 @@ div > a:hover{
 
 
 #enviar{
-    background-color: rgba(255, 255, 0, 0.87);
+    background-color: rgb(226, 226, 2);
     padding: 10px;
     color: black;
     border-radius: 5px;
@@ -365,5 +381,43 @@ div > a:hover{
 
 
 
+#cxnum{
+    width: 70vh;
+    height: 80vh;
+    margin: 10vh;
+    font-size: 3vh;
+}
+
+#cxnum p, h2 {
+    margin: 20px;
+    text-align: center;
+    line-height: 6vh;
+
+}
+
+#cxnum a {
+     
+    background-color: rgb(226, 226, 2);
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    display: block;
+    width: 35vh;
+    height: 6vh;
+    margin: auto;
+    margin-top:  15vh;
 
 
+}
+
+#cxnum a:hover{
+    background-color: yellow;
+    transition: 0.5s;
+}
+
+
+.pe{
+    background-color: rgb(55, 52, 71);
+    height: 50vh;
+}
