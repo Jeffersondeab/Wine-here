@@ -77,12 +77,13 @@ div > a:hover{
       margin: 5vh;
   }
 
+
   .txt01{
       margin: 5vh;
-  } {
+  } 
+  
 
-  }
- 
+
  .txt02{
      width: 80vh;
      height: 60vh;
@@ -134,12 +135,13 @@ div > a:hover{
 
  }
 
+
  .cx01:hover{
      transform: scale(1.01, 1.01);
      transition: 1ms;
-     
 
  }
+
 
  .box1{
      background-image: url(wine/A_Chapter_teste.jpg);
@@ -404,9 +406,9 @@ div > a:hover{
     text-align: center;
     display: block;
     width: 35vh;
-    height: 6vh;
     margin: auto;
     margin-top:  15vh;
+    padding: 7px;
 
 
 }
@@ -420,4 +422,64 @@ div > a:hover{
 .pe{
     background-color: rgb(55, 52, 71);
     height: 50vh;
+    position: relative;
 }
+
+
+#imgfootwine{
+    display: block;
+    margin: auto;
+    position: absolute;
+    top:20%;
+    right: 50%;
+}
+
+
+#footrsocial{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+     
+}
+
+.rsocial{
+    width: 30px;
+    height: 30px;
+    border: 1px solid chartreuse ;
+    border-radius: 50%;
+ 
+}
+
+.insta{
+    position: absolute;
+    top: 20vh;
+    right: 40%;
+    background-size: cover;
+    color: yellow;
+    
+}
+
+.face{
+    position: absolute;
+    top: 20vh;
+    right: 45%;
+    
+} 
+
+.twitter{
+    position: absolute;
+    top: 20vh;
+    right: 55%;
+} 
+
+.google{
+    position: absolute;
+    top: 20vh;
+    right: 60%;
+
+}
+
+
+
+
+
