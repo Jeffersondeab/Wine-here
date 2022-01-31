@@ -69,6 +69,10 @@ div > a:hover{
     background-color: yellow;
     transition: 0.5s;
 }
+
+div > a::after {
+    content:   ' ⇒' ;
+}
     
   main > h2{
       text-align: center;
