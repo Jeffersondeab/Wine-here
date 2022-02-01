@@ -65,13 +65,13 @@ header div > a {
      
 }
 
-div > a:hover{
+header div > a:hover{
     background-color: yellow;
     transition: 0.5s;
 }
 
-div > a::after {
-    content:   '  ➟' ;
+header > div > a::after {
+    content:   '  ➞' ;
     
 }
     
@@ -265,7 +265,7 @@ div > a::after {
  }
 
 
- .container2 a::after{
+ .container2 > a::after{
      content: ' ➞';
  }
 
@@ -453,6 +453,7 @@ div > a::after {
     position: absolute;
     top:20%;
     right: 50%;
+    height: 6vh;
 }
 
 
@@ -464,26 +465,37 @@ div > a::after {
 }
 
 .rsocial{
-    width: 30px;
-    height: 30px;
-    border: 1px solid chartreuse ;
+    width: 25px;
+    height: 25px;
+    border: 1px solid ;
     border-radius: 50%;
+    background-color: rgb(226, 226, 2);
+    padding: 10px;
+    border: none;
  
 }
 
-.insta{
+
+.rsocial:hover{
+    background-color: yellow;
+}
+
+.insta {
     position: absolute;
     top: 20vh;
     right: 40%;
     background-size: cover;
-    color: yellow;
+    color: white;
+    cursor: pointer;
     
 }
 
-.face{
+.face {
     position: absolute;
     top: 20vh;
     right: 45%;
+    color: white;
+    cursor: pointer;
     
 } 
 
@@ -491,18 +503,22 @@ div > a::after {
     position: absolute;
     top: 20vh;
     right: 55%;
+    color: white;
+    cursor: pointer;
 } 
 
 .google{
     position: absolute;
     top: 20vh;
     right: 60%;
+    color: white;
+    cursor: pointer;
+ 
 
 }
 
 
 
- 
 .txtfoot{
     color: white;
     font-size: 3vh;
@@ -511,7 +527,26 @@ div > a::after {
     text-align: center;
     display: inline-block;
 
+}
 
+
+ 
+
+
+.assinatura  {
+    color: white;
+    display: inline-block;
+    font-size: 2.5vh;
+    text-decoration: none;
+    padding: 10vh;
+    text-align: center;
+    background-color: rgb(55, 52, 71);
+
+}
+
+
+.assinatura a:hover{
+    text-decoration: underline;
 }
 
 /* .address01{
