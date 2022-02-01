@@ -71,7 +71,8 @@ div > a:hover{
 }
 
 div > a::after {
-    content:   ' ⇒' ;
+    content:   '  ➟' ;
+    
 }
     
   main > h2{
@@ -218,18 +219,21 @@ div > a::after {
      background-image:  url(wine/wines-2447514_1280.jpg);
      background-size: cover;
      background-attachment: fixed;
+     position: relative;
     
 
  }
 
 
  .container2 > h2 {
+    position: inherit;
+    top: 25%;
     color: white;
     font-family: var(--font2);
     margin: 10vh;
-    margin-bottom: 0vh;
     font-size: 6vh;
     background-attachment: fixed;
+    text-align: left;
 
  }
 
@@ -237,6 +241,7 @@ div > a::after {
      color: white;
      margin: 10vh;
      display: inline-block;
+
      
  }
 
@@ -257,6 +262,11 @@ div > a::after {
 
  .container2 > a:hover {
     background-color: yellow;
+ }
+
+
+ .container2 a::after{
+     content: ' ➞';
  }
 
 
@@ -340,6 +350,7 @@ div > a::after {
      width: 60vh;
      padding: 10px;
      border-radius: 5px;
+     border: none;
 
  }
 
@@ -352,6 +363,7 @@ div > a::after {
      padding: 10px;
      border-radius: 5px;
      margin-top: 3vh;
+     border: none;
  }
 
 
@@ -364,6 +376,7 @@ div > a::after {
      margin-top: 5vh;
      border-radius: 5px;
      margin-bottom: 10vh;
+     border: none;
  }
 
 
@@ -422,6 +435,10 @@ div > a::after {
     transition: 0.5s;
 }
 
+
+#cxnum a::after{
+    content: ' ➞';
+}
 
 .pe{
     background-color: rgb(55, 52, 71);
