@@ -219,15 +219,13 @@ header > div > a::after {
      background-image:  url(wine/wines-2447514_1280.jpg);
      background-size: cover;
      background-attachment: fixed;
-     position: relative;
-    
-
+     
+   
  }
 
 
  .container2 > h2 {
-    position: inherit;
-    top: 25%;
+     top: 25%;
     color: white;
     font-family: var(--font2);
     margin: 10vh;
@@ -241,24 +239,38 @@ header > div > a::after {
      color: white;
      margin: 10vh;
      display: inline-block;
-
      
  }
 
 
  .container2 > a {
-     display: inline-block;
-     text-align: center;
      background-color: rgb(226, 226, 2);
      color: black;
      font-family: var(--font2);
-     margin-left: 30vh;
-     padding: 2vh;
-     width: 20vh;
      text-decoration: none;
      border-radius: 5px;
+     padding: 12px;
+     display: inline-block;
+     margin-left: 25vh;
+
 
  }
+
+
+
+ /* .container2 > a {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(226, 226, 2);
+    color: black;
+    font-family: var(--font2);
+    margin-left: 30vh;
+    padding: 2vh;
+    width: 20vh;
+    text-decoration: none;
+    border-radius: 5px;
+
+} */
 
  .container2 > a:hover {
     background-color: yellow;
@@ -530,8 +542,13 @@ header > div > a::after {
 }
 
 
- 
+ #linha{
+     width: 99%;
+     border: 1px solid rgb(38, 36, 56);
+     margin: 5px;
+     
 
+ }
 
 .assinatura  {
     color: white;
@@ -539,11 +556,14 @@ header > div > a::after {
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    line-height: 25vh;
-
+    justify-content: center;
+    line-height: 10vh;
     background-color: rgb(55, 52, 71);
 
+}
+
+.assinatura p,a{
+    margin: 5px;
 }
 
 
@@ -551,22 +571,25 @@ header > div > a::after {
     text-decoration: underline;
 }
 
-/* .address01{
-    position: absolute;
-    right: 40%;
-    top: 30vh;
+
+@media (max-width: 1100px){
+    body{
+        background-color: chartreuse;
+    }
+
+    .txt02{
+        text-align: center;
+         width: auto;
+    }
+    .sideimg{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .container2 a{
+       
+       
+    }
 }
-
-
-.address02{
-    position: absolute;
-    right: 50%;
-    top: 20vh;
-}
-
-.address03{
-    position: absolute;
-    right: 60%;
-    top: 20vh;
-} */
 
