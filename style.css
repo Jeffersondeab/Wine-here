@@ -321,7 +321,6 @@ header > div > a::after {
     grid-template-columns: repeat(2, 1fr);
     
 
-   
 }
 
  .cxdoemail{
@@ -373,7 +372,7 @@ header > div > a::after {
      padding: 10px;
      margin-top: 5vh;
      border-radius: 5px;
-     margin-bottom: 10vh;
+     margin-bottom: 3vh;
      border: none;
  }
 
@@ -444,27 +443,27 @@ header > div > a::after {
 
 .pe{
     background-color: rgb(55, 52, 71);
-    height: 50vh;
-    position: relative;
+
+
+
 }
 
 
-#imgfootwine{
+img#imgfootwine{
     display: block;
     margin: auto;
-    position: absolute;
-    top:20%;
-    right: 50%;
-    height: 6vh;
+    padding: 10px;
 }
 
 
-#footresocial{
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
+
+div#footresocial{
+     display: flex;
+     justify-content:center;
+     margin: 10px;
+      
+}
  
-     
-}
 
 .rsocial{
     width: 25px;
@@ -473,11 +472,9 @@ header > div > a::after {
     background-color: rgb(226, 226, 2);
     padding: 10px;
     border: none;
-     
-
-    
+    margin: 10px;
+ 
 }
-
 
 
 .rsocial:hover{
@@ -487,67 +484,44 @@ header > div > a::after {
 
 ul > li{
     list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 svg {
     width: 25px;
     height: 25px;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
     color: white;
+
+
 }
 
- 
 
-/* 
-.insta {
-    position: absolute;
-    top: 20vh;
-    right: 40%;
-    background-size: cover;
-    color: white;
-    cursor: pointer;
-    
-}
-
-.face {
-    position: absolute;
-    top: 20vh;
-    right: 45%;
-    color: white;
-    cursor: pointer;
-    
-} 
-
-.twitter{
-    position: absolute;
-    top: 20vh;
-    right: 55%;
-    color: white;
-    cursor: pointer;
-} 
-
-.google{
-    position: absolute;
-    top: 20vh;
-    right: 60%;
-    color: white;
-    cursor: pointer;
- 
-
-} */
 
 #txtaddress{
     display: flex;
     justify-content: space-around;
     color: white;
     font-size: 3vh;
+    clear: both;
+    margin: 5vh;
      
    
 }
  
 
+.assinatura  {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.assinatura > a {
+    margin-left: 2vh ;
+    margin-bottom: 5vh;
+}
 
 .assinatura a:hover{
     text-decoration: underline;
@@ -560,10 +534,10 @@ svg {
 
 
 
+
+
+
 @media (max-width: 1150px){
-    body{
-        background-color: chartreuse;
-    }
 
     .txt02{
         text-align: center;
@@ -585,10 +559,71 @@ svg {
         bottom: 60%;
         right:  0%;
          
-        
-        
+    }
+
+    .email-num{
+         height: 130vh;
+    }
+
+    #cxmsg{
+        margin-bottom: 1px;
+    }
+
+    #enviar{
+
+        padding: 5px;
+        color: black;
+
+        width: 15vh;
+    }
+    
+
+}
+
+
+
+@media (max-width: 700px){
+
+
+    .container1{
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+
+    }
+    
+    .cx01{
+        width: 50vh;
+        height: 50vh;
+    }
+
+    .container3{
+        grid-template-areas: "1fr 2fr "
+                              "3fr 4fr";
+    }
+
+    .email-num{
+        grid: none;
+        height: auto;
+       display: block;
+       text-align: center;
+    }
+    .cxdoemail{
+        display: block;
+        justify-content: center;
     }
 
 
+}
+
+@media(max-width: 420px){
+
+    body{
+
+    }
+
+    header{
+      background-size: cover;
+      background-position: center 100%;
+    }
 }
 
