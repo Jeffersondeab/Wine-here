@@ -258,21 +258,6 @@ header > div > a::after {
  }
 
 
-
- /* .container2 > a {
-    display: inline-block;
-    text-align: center;
-    background-color: rgb(226, 226, 2);
-    color: black;
-    font-family: var(--font2);
-    margin-left: 30vh;
-    padding: 2vh;
-    width: 20vh;
-    text-decoration: none;
-    border-radius: 5px;
-
-} */
-
  .container2 > a:hover {
     background-color: yellow;
  }
@@ -453,6 +438,10 @@ header > div > a::after {
     content: ' ➞';
 }
 
+
+
+/* FOOTER */
+
 .pe{
     background-color: rgb(55, 52, 71);
     height: 50vh;
@@ -470,29 +459,48 @@ header > div > a::after {
 }
 
 
-#footrsocial{
+#footresocial{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    position: relative;
+    grid-template-rows: repeat(3, 1fr);
+ 
      
 }
 
 .rsocial{
     width: 25px;
     height: 25px;
-    border: 1px solid ;
     border-radius: 50%;
     background-color: rgb(226, 226, 2);
     padding: 10px;
     border: none;
- 
+     
+
+    
 }
+
 
 
 .rsocial:hover{
     background-color: yellow;
 }
 
+
+ul > li{
+    list-style: none;
+}
+
+svg {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+}
+
+ 
+
+/* 
 .insta {
     position: absolute;
     top: 20vh;
@@ -528,19 +536,17 @@ header > div > a::after {
     cursor: pointer;
  
 
-}
+} */
 
 #txtaddress{
     display: flex;
     justify-content: space-around;
     color: white;
     font-size: 3vh;
-    align-items: flex-end;
+     
    
 }
  
-
-
 
 
 .assinatura a:hover{
@@ -550,7 +556,7 @@ header > div > a::after {
 
 
 
-
+/* MEDIA QUERIES */
 
 
 
