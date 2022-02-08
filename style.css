@@ -21,11 +21,11 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center 20%;
+    background-position: center center;
     padding: 30vh;
     height: 60vh;
     opacity: 0.9;
-
+    width: auto;
 }
 
 
@@ -325,11 +325,12 @@ header > div > a::after {
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+
 
 }
 
  .cxdoemail{
+
     width: 70vh;
     height: 80vh;
     border: 1px solid gray;
@@ -344,7 +345,6 @@ header > div > a::after {
      color: white;
      font-size: 5vh;
      
-
  }
 
  #cxnome{
@@ -399,6 +399,8 @@ header > div > a::after {
 #enviar:hover{
     background-color: yellow;
     transition: 0.5s;
+    display: block;
+    margin: auto;
 }
 
 
@@ -448,10 +450,9 @@ header > div > a::after {
 /* FOOTER */
 
 .pe{
-    background-color: rgb(55, 52, 71);
-
-
-
+    background-color: rgb(55, 52, 71);  
+    width: 171vh;
+    
 }
 
 
@@ -544,11 +545,11 @@ svg {
 
  
 
-@media (max-width: 700px){
+@media (max-width: 880px){
 
    
     header{
-        width: 215%;
+        max-width: 100%;
     }
 
     .sideimg{
@@ -556,10 +557,69 @@ svg {
         margin: auto;
     }
 
-    main > h2,p{
 
+    .container3{
+        display: grid;
+        grid-template-areas: "f1 f2" 
+                              "f3 f4";
+        grid-gap: 2vh;
+        margin: auto;
+
+        
     }
 
+    .cx02 {
+        grid: f1 f2
+              f3 f4;
+        width: 40vh;
+        height: 35vh;
+        border: 1px solid gray;
+        margin: 2vh;
+        max-width: 40vh;
+        min-width: 20vh; }
+
+    .email-num{
+
+    }
+ 
+
+}
+
+
+
+
+@media (max-width: 600px){
+
+   
+    header{
+         
+    }
+
+    .sideimg{
+        display: block;
+        margin: auto;
+    }
+
+
+    .container3{
+        display: grid;
+        grid-template-areas: "f1 f2" 
+                              "f3 f4";
+        grid-gap: 2vh;
+        margin: auto;
+
+        
+    }
+
+    .cx02 {
+        grid: f1 f2
+              f3 f4;
+        width: 40vh;
+        height: 35vh;
+        border: 1px solid gray;
+        margin: 2vh;
+        max-width: 40vh;
+        min-width: 20vh; }
 
     .email-num{
         grid: none;
@@ -567,7 +627,38 @@ svg {
        display: block;
        text-align: center;
     }
- 
-}
 
+    .cxdoemail{
+        width: 100vh;
+        height: 90vh;
+        margin: 30vh;
+         
+    }
+ 
+    #cxnome, #cxemail{
+        width: 80vh;
+        height: 7vh;
+    }
+
+    #cxmsg{
+        width: 80vh;
+        height: 20vh;
+    }
+
+    #enviar{
+        width: 30vh;
+        height: 8vh;
+    }
+    
+    #cxnum{
+        margin: 40vh;
+    }
+
+
+    .pe{
+         
+
+    }
+
+}
  
