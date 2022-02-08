@@ -31,11 +31,12 @@ header{
 
 header > h1{
     color: rgb(255, 255, 255);
-    font-size: 50px;
     text-align: center;
     font-size: 10vh;
     font-family: var(--font1);
     margin-bottom: 5vh;
+    white-space: nowrap;
+    
 }
 
 
@@ -45,6 +46,7 @@ header > h2 {
     font-size: 4vh;
     font-family: var(--font1);
     margin-bottom: 20vh;
+    white-space: nowrap;
 
 }
 
@@ -125,7 +127,7 @@ header > div > a::after {
 
  
  .cx01{
-     display: block;
+
      margin: auto;
      width: 40vh;
      height: 35vh;
@@ -536,70 +538,10 @@ svg {
 
 
 
-
-@media (max-width: 1150px){
-
-    .txt02{
-        text-align: center;
-         width: auto;
-    }
-    .sideimg{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    
-
-    .container2{
-        position: relative;
-    }
-     div.container2 > a{
-        position: absolute;
-        bottom: 60%;
-        right:  0%;
-         
-    }
-
-    .email-num{
-         height: 130vh;
-    }
-
-    #cxmsg{
-        margin-bottom: 1px;
-    }
-
-    #enviar{
-
-        padding: 5px;
-        color: black;
-
-        width: 15vh;
-    }
-    
-
-}
-
-
+ 
 
 @media (max-width: 700px){
 
-
-    .container1{
-        grid-template-columns: repeat(2, 1fr);
-        height: auto;
-
-    }
-    
-    .cx01{
-        width: 50vh;
-        height: 50vh;
-    }
-
-    .container3{
-        grid-template-areas: "1fr 2fr "
-                              "3fr 4fr";
-    }
 
     .email-num{
         grid: none;
@@ -607,23 +549,7 @@ svg {
        display: block;
        text-align: center;
     }
-    .cxdoemail{
-        display: block;
-        justify-content: center;
-    }
-
-
+ 
 }
 
-@media(max-width: 420px){
-
-    body{
-
-    }
-
-    header{
-      background-size: cover;
-      background-position: center 100%;
-    }
-}
-
+ 
