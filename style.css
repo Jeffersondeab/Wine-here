@@ -25,6 +25,9 @@ header{
     padding: 30vh;
     height: 60vh;
     opacity: 0.9;
+    max-width: auto;
+    min-width: auto;
+    
 
 }
 
@@ -541,6 +544,22 @@ svg {
  
 
 @media (max-width: 700px){
+
+   
+    header{
+        width: 215%;
+    }
+
+    .sideimg{
+        display: block;
+        margin: auto;
+    }
+
+    main > h2,p{
+        display: flex;
+        font-size: 7vh; 
+        justify-content: center;
+    }
 
 
     .email-num{
