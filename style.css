@@ -25,9 +25,6 @@ header{
     padding: 30vh;
     height: 60vh;
     opacity: 0.9;
-    max-width: auto;
-    min-width: auto;
-    
 
 }
 
@@ -80,6 +77,10 @@ header > div > a::after {
     
 }
     
+
+
+/* MAIN */
+
   main > h2{
       text-align: center;
       font-family: var(--font2);
@@ -556,9 +557,7 @@ svg {
     }
 
     main > h2,p{
-        display: flex;
-        font-size: 7vh; 
-        justify-content: center;
+
     }
 
 
