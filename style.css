@@ -18,14 +18,14 @@
 
 header{
     background-image: url(wine/pexels-bruno-cantuária-774455.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center 20%;
+     background-attachment: fixed;
+     background-size: cover;
+    background-position: center center;
     padding: 30vh;
     height: 60vh;
     opacity: 0.9;
- 
+     
 }
 
 
@@ -354,6 +354,7 @@ header > div > a::after {
      padding: 10px;
      border-radius: 5px;
      border: none;
+     outline: 0;
 
  }
 
@@ -367,6 +368,7 @@ header > div > a::after {
      border-radius: 5px;
      margin-top: 3vh;
      border: none;
+     outline: 0;
  }
 
 
@@ -380,6 +382,7 @@ header > div > a::after {
      border-radius: 5px;
      margin-bottom: 3vh;
      border: none;
+     outline: 0;
  }
 
 
