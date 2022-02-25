@@ -17,11 +17,11 @@
 
 
 header{
-    background-image: url(wine/pexels-bruno-cantuária-774455.jpg);
+    background-image: url(wine/prinew.jpg);
     background-repeat: no-repeat;
      background-attachment: fixed;
      background-size: cover;
-    background-position: center center;
+    background-position: center 40%;
     padding: 30vh;
     height: 60vh;
     opacity: 0.9;
@@ -301,7 +301,7 @@ header > div > a::after {
  }
 
  .f2{
-     background-image: url(wine/pexels-bruno-novo.jpg);
+     background-image: url(wine/prinew.jpg);
      background-size: cover;
      background-position: 50% 30%;
  }
