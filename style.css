@@ -615,7 +615,91 @@ svg {
     }
 
     .container2{
-        height: 100vh;        
+        height: 100vh; 
+        font-size: 7vh;       
+    }
+
+    .container2 > h2{
+        font-size: 10vh;
+    }
+
+    #txt03{
+        font-size: 10vh;
+    }
+
+    .container3{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "f1 f2"
+                              "f3 f4";
+        gap: 5vh;
+        
+    }
+
+    .cx02{
+        margin: auto;
+        padding: 20vh;
+    }
+
+    .f1{
+        grid-area: f1;
+    }
+
+    .f2{
+        grid-area: f2;
+    }
+
+    .f3{
+        grid-area: f3;
+    }
+
+    .f4{
+        grid-area: f4;
+    }
+
+    .email-num{
+        display: block;
+        justify-content: center;    
+    }
+
+    .cxdoemail{
+        padding: 10vh;
+        margin: auto;
+        width: 150vh;
+        height: auto;
+         
+    }
+
+    .txtpergunta{
+        font-size: 10vh;
+        white-space: pre-line;
+        text-align: left;
+    }
+    #cxnome, #cxemail{
+        width: 130vh;
+        height: 5vh;
+    }
+
+    #cxmsg{
+        width: 130vh;
+        height: 30vh;
+    }
+
+    #enviar{
+        font-size: 40px;
+        width: 20vh;
+    }
+
+    #cxnum{
+        margin:auto;
+        line-height: 20vh;
+    }
+    #cxnum > h2{
+        font-size: 12vh;
+        line-height: 10vh;
+
+        
+
     }
 }
 
