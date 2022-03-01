@@ -539,16 +539,12 @@ svg {
 
 
 
+
 /* MEDIA QUERIES */
 
-
-
-
-@media (max-width: 450px){
-    .pe{
-        width: 177.4vh;
-    }
-
+@media (max-width: 550px){
+    
+    /* HEADER */
     body{
         display: grid;
         grid: none;
@@ -571,6 +567,8 @@ svg {
         border-radius: 30px;
         font-weight: bold;
     }
+
+    /* MAIN */
 
     main {
         margin: 5vh;
@@ -657,6 +655,9 @@ svg {
         grid-area: f4;
     }
 
+
+    /* CAIXA DO EMAIL */
+
     .email-num{
         display: block;
         justify-content: center;    
@@ -665,8 +666,8 @@ svg {
     .cxdoemail{
         padding: 10vh;
         margin: auto;
-        width: 150vh;
-        height: auto;
+        width: 170vh;
+        height: 180vh;
          
     }
 
@@ -676,29 +677,44 @@ svg {
         text-align: left;
     }
     #cxnome, #cxemail{
-        width: 130vh;
-        height: 5vh;
+        width: 170vh;
+        height: 15vh;
     }
 
     #cxmsg{
-        width: 130vh;
-        height: 30vh;
+        width: 170vh;
+        height: 50vh;
     }
 
     #enviar{
-        font-size: 40px;
-        width: 20vh;
+        font-size: 60px;
+        width: 50vh;
     }
+
+
+    /* SEÇÃO DÚVIDAS CASO QUEIRA ENTRAR EM CONTATO */
 
     #cxnum{
         margin:auto;
+        height: auto;
         line-height: 20vh;
     }
     #cxnum > h2{
-        font-size: 12vh;
-        line-height: 10vh;
+        font-size: 15vh;
+        line-height: 15vh;
+    }
 
+    #cxnum > p{
+        font-size: 10vh;
+        line-height: 15vh;
+      
         
+    }
+
+    div#cxnum  a{
+       
+
+
 
     }
 }
