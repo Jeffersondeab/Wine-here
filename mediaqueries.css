@@ -173,8 +173,9 @@
         text-align: left;
     }
 
-    ::placeholder{
-        size: 100px;
+    #cxnome, #cxemail, #cxmsg::placeholder{
+        font-size: 7vh;
+        padding: 2%;
     }
 
     #cxnome, #cxemail{
@@ -186,6 +187,7 @@
         width: 170vh;
         height: 50vh;
     }
+
 
     #enviar{
         font-size: 60px;
