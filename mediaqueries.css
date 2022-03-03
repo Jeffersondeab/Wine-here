@@ -174,7 +174,7 @@
     }
 
     #cxnome, #cxemail, #cxmsg::placeholder{
-        font-size: 7vh;
+        font-size: 10vh;
         padding: 2%;
     }
 
@@ -184,8 +184,10 @@
     }
 
     #cxmsg{
-        width: 170vh;
+        width: 174vh;
         height: 50vh;
+        font-size: 10vh;
+        
     }
 
 
@@ -432,7 +434,7 @@
     }
 
     #cxmsg{
-        width: 170vh;
+        width: 174vh;
         height: 50vh;
     }
 
