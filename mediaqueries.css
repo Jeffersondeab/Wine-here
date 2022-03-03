@@ -1,17 +1,42 @@
 
-/* 1170 */
-
-@media(max-width:1170px){
-    body{
-        
-    }
-
-    
-}
 
 
 
 /* MEDIA QUERIES */
+
+@media(max-width:1170px){
+    body{
+        display: grid;
+        grid: none;
+    }
+
+    main > h2{
+        font-size: 10vh;
+        margin: 10vh;
+    }
+
+    .txt01{
+        font-size: 5vh;
+        text-align: justify;
+    }
+
+    .sideimg{
+        width: 200vh;
+        height: 100vh;
+         
+    }
+
+    .txt02{
+        font-size: 5vh;
+        text-align: justify;
+        width: auto;
+        height: auto;
+    }
+}
+
+
+
+ 
 
 @media (max-width: 550px){
     
@@ -227,7 +252,7 @@
 
 
 
-@media (max-width: 450px){
+@media (max-width: 380px){
     
     /* HEADER */
     body{
@@ -290,7 +315,7 @@
     }
 
     .cx01{
-        padding: 70vh;
+        padding: 20vh;
         display: flex;
         justify-content: center;
         margin: auto;
