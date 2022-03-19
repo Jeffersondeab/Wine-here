@@ -1,123 +1,67 @@
+@media(max-width:850px){
+    
 
+    header{
 
+    }
 
+    header > h1{
+        font-size: 8vh;
+    }
 
-/* MEDIA QUERIES */
-
-@media(max-width:2950px){
-    body{
-        display: grid;
-        grid: none;
+    header > h2{
+        font-size: 2vh;
     }
 
     header > div > a{
-        font-size: 2.5vh;
-    }
-
-    main > h2{
-        font-size: 5vh;
-        margin: 10vh;
-    }
-
-    .container2 > p{
-        font-size: 2.5vh;
-    }
-
-    .container2 > a{
-        font-size: 2.5vh;
-    }
-
-
-    #txt01{
-        font-size: 2.5vh;
-    }
-
-
-    #txt02{
-        font-size: 2.5vh;
-    }
-
-    #txt03{
-        font-size: 2.5vh;
-    }
-}
-
-
-
-
-
-/* MEDIA QUERIES 700PX */
-
-
-@media(max-width: 750px){
-    body{
-        display: grid;
-        grid: none;
-    }
-
-    header > div > a{
-        font-size: 2.5vh;
-    }
-
-    main > h2{
-        font-size: 7vh;
-        margin: 10vh;
-    }
-
-    #sideimg{
+        font-size: 3vh;
         display: block;
-        margin: auto;
-    }
-
-    .container2 > p{
-        font-size: 5vh;
-    }
-
-    .container2 > a{
-        font-size: 5vh;
-    }
-
-
-    #txt01{
-        font-size: 5vh;
-    }
-
-
-    #txt02{
-        font-size: 5vh;
-        height: auto;
-        width: auto;
         
     }
 
-    #txt03{
-        font-size: 5vh;
+    /* MAIN */
+
+    main{
+        margin: 1vh;
     }
+
+    main > h2{
+        font-size:  3vh ;
+        margin: 1vh;
+    }
+
+    #txt01{
+        font-size: 2.5vh;
+        margin: 1vh;
+        text-align: justify;
+    }
+
 }
 
 
 
 
 
-/* MEDIA 550px */
+
+
+
+/*
+
+@media (max-width: 750px){
+    
  
 
-@media (max-width: 550px){
-    
-    /* HEADER */
-    body{
-        display: grid;
-        grid: none;
+    header{
+        background-size: 70%;
     }
 
-
     header > h1{
-        font-size: 20vh;
+        font-size: 2vh;
     }
 
 
     header > h2{
-        font-size: 10vh;
+        font-size: 3vh;
     }
 
     header > div > a{
@@ -128,7 +72,7 @@
         font-weight: bold;
     }
 
-    /* MAIN */
+ 
 
     main {
         margin: 5vh;
@@ -259,7 +203,7 @@
     }
 
 
-    /* CAIXA DO EMAIL */
+ 
 
     .email-num{
         display: block;
@@ -306,8 +250,7 @@
  
 
 
-
-    /* SEÇÃO DÚVIDAS CASO QUEIRA ENTRAR EM CONTATO */
+ 
 
     #cxnum{
  
@@ -331,255 +274,7 @@
         width: 60vh;
 
     }
-
-    /* FOOTER */
-
-    .pe{
-        height: 80vh;
-    }
-
-    #imgfootwine{
-        width: 10vh;
-    }
-
-    .rsocial{
-        width: 15vh;
-        height: 15vh;
-    }
-
-     svg{
-        width: 15vh;
-        height: 15vh;
-    }
-
-    #txtaddress, .assinatura{
-        font-size: 7vh;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 380px){
-    
-    /* HEADER */
-    body{
-        display: grid;
-        grid: none;
-    }
-
-
-    header > h1{
-        font-size: 15vh;
-    }
-
-
-    header > h2{
-        font-size: 5vh;
-    }
-
-    header > div > a{
-        font-size: 7vh;
-        padding: 7vh;
-        width: 50vh;
-        border-radius: 30px;
-        font-weight: bold;
-    }
-
-    /* MAIN */
-
-    main {
-        margin: 3vh;
-    }
-
-    main > h2{
-        font-size: 7vh;
-        margin: 7vh;
-    }
-
-    #txt01{
-        font-size: 10vh;
-        text-align: justify;
-    }
-
-    #sideimg{
-        width: 200vh;
-        height: 100vh;
-         
-    }
-
-    #txt02{
-        font-size: 10vh;
-        text-align: justify;
-        width: auto;
-        height: auto;
-    }
-
-    .container1{
-        display: grid;
-       grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: "box1 box2"
-                             "box3 box4"
-                             "box5 box6"
-                             "box7 box8"; 
-
-         
-    }
-
-    .box1{
-        grid-area: box1;
-    }
-    
-    .box2{
-        grid-area: box2;
-    }
-
-    .box3{
-        grid-area: box3;
-    }
-
-    .box4{
-        grid-area: box4;
-    }
-
-    .box5{
-        grid-area: box5;
-    }
-
-    .box6{
-        grid-area: box6;
-    }
-
-    .box7{
-        grid-area: box7;
-    }
-
-    .box8{
-        grid-area: box8;
-    }
-
-    .cx01{
-        font-size: 10vh;
-        padding: 15vh;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        
-    }
-
-    .container2{
-        height: 100vh; 
-        font-size: 7vh;       
-    }
-
-    .container2 > h2{
-        font-size: 10vh;
-    }
-
-    #txt03{
-        font-size: 10vh;
-    }
-
-    .container3{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: "f1 f2"
-                              "f3 f4";
-        gap: 5vh;
-        
-    }
-
-    .cx02{
-        margin: auto;
-        padding: 20vh;
-    }
-
-    .f1{
-        grid-area: f1;
-    }
-
-    .f2{
-        grid-area: f2;
-    }
-
-    .f3{
-        grid-area: f3;
-    }
-
-    .f4{
-        grid-area: f4;
-    }
-
-
-    /* CAIXA DO EMAIL */
-
-    .email-num{
-        display: block;
-        justify-content: center;    
-    }
-
-    .cxdoemail{
-        padding: 10vh;
-        margin: auto;
-        width: 170vh;
-        height: 180vh;
-         
-    }
-
-    .txtpergunta{
-        font-size: 10vh;
-        white-space: pre-line;
-        text-align: left;
-    }
-
-    #cxnome, #cxemail{
-        width: 170vh;
-        height: 15vh;
-    }
-
-    #cxmsg{
-        width: 174vh;
-        height: 50vh;
-    }
-
-    #enviar{
-        font-size: 60px;
-        width: 50vh;
-    }
-
-
-    /* SEÇÃO DÚVIDAS CASO QUEIRA ENTRAR EM CONTATO */
-
-    #cxnum{
-        margin:auto;
-        height: auto;
-        line-height: 20vh;
-    }
-    #cxnum > h2{
-        font-size: 15vh;
-        line-height: 15vh;
-    }
-
-    #cxnum > p{
-        font-size: 10vh;
-        line-height: 15vh;
-        display: inline-block;
-
-    }
-
-    div#cxnum  a{
-        width: 60vh;
-
-    }
-
-    /* FOOTER */
+ 
 
     .pe{
         height: 80vh;
@@ -603,3 +298,6 @@
         font-size: 7vh;
     }
 }
+
+
+  */
