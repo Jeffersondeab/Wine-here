@@ -145,7 +145,6 @@ header > div > a::after {
      font-size: 4vh;
      border-radius: 5%;
      font-family: normal;
-
  }
 
 
@@ -260,9 +259,6 @@ header > div > a::after {
      padding: 12px;
      display: inline-block;
      margin-left: 25vh;
-     
-
-
  }
 
 
@@ -281,19 +277,18 @@ header > div > a::after {
      grid-template-areas: "f1 f2 f3 f4";
      grid-gap: 2vh;
      margin: 10vh;
-     
  }
 
  #txt03{
      text-align: center;
      margin-top: 40vh;
  }
+
  .cx02 {
      grid: f1 f2 f3 f4 ;
      width: 40vh;
      height: 35vh;
      border: 1px solid gray;
-
  }
 
  .f1{
@@ -324,11 +319,8 @@ header > div > a::after {
 
 
 .email-num{
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
-
 }
 
  .cxdoemail{
@@ -346,8 +338,8 @@ header > div > a::after {
      margin: 3vh;
      color: white;
      font-size: 5vh;
-     
  }
+
 
  #cxnome{
      display: block;
@@ -357,7 +349,6 @@ header > div > a::after {
      border-radius: 5px;
      border: none;
      outline: 0;
-
  }
 
 
@@ -391,6 +382,7 @@ header > div > a::after {
  #cxnome, #cxemail, #cxmsg::placeholder{
     font-size: 3vh; }
 
+    
 #enviar{
     background-color: rgb(226, 226, 2);
     padding: 10px;

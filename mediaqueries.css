@@ -1,3 +1,36 @@
+@media(max-width: 1300px){
+
+    /* HEAD */
+
+    #txt02{
+        font-size: 2.5vh;
+        text-align: justify;
+        margin: 1vh;
+        display: block;
+        width: auto;
+    }
+
+
+    /* MAIN */
+    .container1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat( 2, 1fr);
+        margin: 3vh;
+        margin-top: 20vh;
+        opacity: 0.9;
+        height: auto;
+    }
+
+    .cx02{
+        display: flex;
+        width: auto;
+    }
+}
+
+
+
+
 @media(max-width:850px){
     
 
@@ -10,19 +43,20 @@
     }
 
     header > h2{
-        font-size: 2vh;
+        font-size: 2.5vh;
     }
 
     header > div > a{
-        font-size: 3vh;
-        display: block;
+        font-size: 2vh;
+        font-weight: bold;
+        width: 90%;
         
     }
 
     /* MAIN */
 
     main{
-        margin: 1vh;
+        margin: vh;
     }
 
     main > h2{
@@ -32,10 +66,69 @@
 
     #txt01{
         font-size: 2.5vh;
-        margin: 1vh;
+        margin: 5vh;
         text-align: justify;
+        
     }
 
+    #sideimg{
+        display: flex;
+        width: auto;
+        margin: 3vh;
+        
+    }
+
+    #txt02{
+        font-size: 2.5vh;
+        text-align: justify;
+        margin: 1vh;
+        display: block;
+        width: auto;
+    }
+
+    .container1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat( 2, 1fr);
+        margin: 3vh;
+        margin-top: 20vh;
+        opacity: 0.9;
+        height: auto;
+    }
+
+    .cx01{
+        display: flex;
+        width: auto;
+        margin: 3vh;
+    }
+
+    .container2{
+        height: auto;
+    }    
+       
+    .container2 > a {
+        margin: 3vh;
+        margin-left: 25vh;
+    }
+
+    .container3{
+        display: grid;
+        grid-template-areas: "f1 f2"
+                              "f3 f4";
+        grid-gap: 2vh;
+    }
+   
+    #txt03{
+        text-align: center;
+        margin-top: 40vh;
+    }
+    
+    .cx02 {
+        grid: f1 f2 f3 f4 ;
+ 
+    }
+
+    
 }
 
 
