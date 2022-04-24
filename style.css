@@ -277,6 +277,7 @@ header > div > a::after {
      grid-template-areas: "f1 f2 f3 f4";
      grid-gap: 2vh;
      margin: 10vh;
+     
  }
 
  #txt03{
