@@ -27,6 +27,32 @@
 
 
 
+
+@media(max-width:950px){
+    
+    
+    
+    /* MAIN */
+    .cxdoemail{
+        width: 55vh;
+        height: 80vh;
+    }
+
+    #cxnome, #cxemail, #cxmsg{
+        width: 45vh;
+    }
+
+    #cxnum{
+        width: 60vh;
+        height: 70vh;
+        margin-left: 0vh;
+    }
+
+}
+
+
+
+
 @media(max-width:850px){
     
 
@@ -51,8 +77,8 @@
 
     /* MAIN */
 
-    main{
-        margin: vh;
+    body{
+        background-color: green;
     }
 
     main > h2{
@@ -105,6 +131,24 @@
         margin: 3vh;
         margin-left: 25vh;
     } 
+
+    .email-num{
+        display: block;
+    }
+
+    .cxdoemail{
+        width: auto;
+    }
+
+    #cxnum{
+        width: 60vh;
+        height:70vh;
+        margin: auto;
+        height: auto;
+         
+    }
+
+
 }
 
 
