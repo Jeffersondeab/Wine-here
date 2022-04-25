@@ -274,11 +274,16 @@ header > div > a::after {
 
  .container3{
      display: grid;
-     grid-template-areas: "f1 f2 f3 f4";
+     grid-template-areas: "f1 f2 f3 f4 f5 f6 f7";
      grid-gap: 2vh;
      margin: 10vh;
-     
+     overflow-x: auto;
+      
  }
+
+ .container3::-webkit-scrollbar{
+    width: 0;
+}
 
  #txt03{
      text-align: center;
@@ -315,6 +320,24 @@ header > div > a::after {
         background-image: url(wine/pexels-czapp-novo.jpg);
         background-size: cover;
         background-position: 50% 30%;
+ }
+
+ .f5{
+     background-image: url(wine/wines-2447514_1280.jpg);
+     background-size: cover;
+    background-position: 50% 30%;
+ }
+
+ .f6{
+     background-image: url(wine/red-wine-novo_1280.jpg);
+     background-size: cover;
+    background-position: 50% 30%;
+ }
+
+ .f7{
+     background-image: url(wine/wine-1010657_1280.png);
+     background-size: cover;
+    background-position: 50% 30%;
  }
 
 
