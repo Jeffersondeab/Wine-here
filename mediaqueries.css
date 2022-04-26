@@ -2,6 +2,7 @@
 
     /* HEAD */
 
+
     #txt02{
         font-size: 2.5vh;
         text-align: justify;
@@ -28,7 +29,7 @@
 
 
 
-@media(max-width:950px){
+@media(max-width:1000px){
     
     
     
@@ -56,10 +57,6 @@
 @media(max-width:850px){
     
 
-    header{
-
-    }
-
     header > h1{
         font-size: 8vh;
     }
@@ -70,16 +67,12 @@
 
     header > div > a{
         font-size: 2vh;
-        font-weight: bold;
-        width: 90%;
-        
+        width: 50%; 
     }
 
     /* MAIN */
 
-    body{
-        background-color: green;
-    }
+ 
 
     main > h2{
         font-size:  3vh ;
@@ -144,8 +137,19 @@
         width: 60vh;
         height:70vh;
         margin: auto;
-        height: auto;
-         
+        height: auto;  
+    }
+
+    #cxnum a{
+        width: 30vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    /* FOOTER */
+
+    .adress01, .adress02, .adress03, .assinatura{
+        font-size: 2.5vh;
     }
 
 
@@ -162,18 +166,55 @@
 
     header > div > a{
         background-color: rgba(226, 226, 2, 0.932);
-        width: 70px;
-        margin: auto;
+        width: 80px;
+        margin:0%;
     }
 
 
     /* MAIN */
+
+    #txt02{
+        height: auto;
+    }
+
+    .cx01{
+        width: 20vh;
+        height: 20vh;
+        margin: 0;
+        font-size: 1.5vh;
+    }
+
+
     .cx02 {
         grid: f1 f2 f3 f4 ;
         width: 25vh;
         height: 25vh;
         border: 1px solid gray;
     }
+
+
+    .cxdoemail{
+        width: 45vh;
+        height: 80vh;
+        margin: auto;
+    }
+
+
+    #cxnome, #cxemail, #cxmsg{
+        width: 30vh;
+    }
+
+    #cxnome, #cxemail, #cxmsg::placeholder{
+        font-size: 1.5vh; }
+
+
+
+    #cxnum{
+        width: auto;
+        margin: 0%;
+    }
+
+
 }
 
 
